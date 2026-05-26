@@ -7,7 +7,7 @@
 proxy-providers:
 
   机场名称:
-    url: "机场订阅地址"  
+    url: "http://107.175.233.96:12263/e1a33a79-83ab-48f6-9e2e-302ea154ab51/clmi.yaml"  
     type: http
     interval: 86400
     health-check:
