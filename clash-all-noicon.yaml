@@ -4,7 +4,7 @@
 
 # 机场节点订阅
 proxy-providers:
-  机场名称:
+  sing-box:
     url: "http://107.175.233.96:12263/e1a33a79-83ab-48f6-9e2e-302ea154ab51/clmi.yaml"  
     type: http
     interval: 86400
@@ -13,6 +13,19 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 直连
+
+# 机场节点订阅
+VPS:
+  sing-box:
+    url: "https://rn.950606.xyz:2096/bl0606/2250ae3c-8c9c-49a3-8c21-99047297fe2e"  
+    type: http
+    interval: 86400
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: 直连
+   
 
 proxies:
   - {name: 直连, type: direct}
