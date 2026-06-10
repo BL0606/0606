@@ -6,7 +6,7 @@
 
 proxy-providers:
   06:
-    url: "http://107.175.233.96:38836/354badd4-2dc8-4d14-9f43-027c0ebea6f0/clmi.yaml"  
+    url: "http://107.175.233.96:28125/cf28c860-4d7f-4ac8-bb1f-29cfe738abdd/clmi.yaml"  
     type: http
     interval: 86400
     health-check:
