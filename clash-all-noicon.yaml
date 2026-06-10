@@ -17,7 +17,7 @@ proxy-providers:
 
 
   0606:
-    url: "https://rn.950606.xyz:2096/bl0606/o6c7iyowwhk5p77x"  
+    url: "https://rn.950606.xyz:2096/bl0606/me0sg5hds7h8khcd"  
     type: http
     interval: 86400
     health-check:
