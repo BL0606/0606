@@ -15,8 +15,7 @@ proxy-providers:
       interval: 300
     proxy: 直连
 
-
-  provider_0606':
+  provider_0606:  # 👈 刚才这里漏掉了关键的冒号，现已修复
     url: "https://rn.950606.xyz:2096/bl0606/me0sg5hds7h8khcd"  
     type: http
     interval: 86400
@@ -25,7 +24,6 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 直连
-   
 
 proxies:
   - {name: 直连, type: direct}
@@ -188,7 +186,7 @@ rules:
   - RULE-SET,Apple-CN / Domain,🍏 Apple  
   - RULE-SET,Microsoft / Domain,🧱 Microsoft
   - RULE-SET,OKX / Domain,🪙 Crypto
-  - RULE-SET,Bybit / Domain,🪙 Crypto
+#  - RULE-SET,Bybit / Domain,🪙 Crypto
   - RULE-SET,Binance / Domain,🪙 Crypto
   - RULE-SET,Youtube / Domain,📺 YouTube
   - RULE-SET,TikTok / Domain,🎵 TikTok
@@ -241,7 +239,7 @@ rule-providers:
   Apple / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/apple.mrs"} 
   Microsoft / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/microsoft.mrs"}
   OKX / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/okx.mrs"}
-  Bybit / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/bybit.mrs"}
+#  Bybit / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/bybit.mrs"}
   Binance / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/binance.mrs"}
   TikTok / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/tiktok.mrs"}
   Netflix / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/netflix.mrs"}
