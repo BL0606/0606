@@ -5,7 +5,7 @@
 # 机场节点订阅
 
 proxy-providers:
-  06:
+  '06':
     url: "http://107.175.233.96:61145/1323a55e-5ca6-45a6-a9a9-b2cc89faa0e8/clmi.yaml"  
     type: http
     interval: 86400
@@ -16,7 +16,7 @@ proxy-providers:
     proxy: 直连
 
 
-  0606:
+  '0606':
     url: "https://rn.950606.xyz:2096/bl0606/me0sg5hds7h8khcd"  
     type: http
     interval: 86400
