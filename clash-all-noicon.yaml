@@ -5,8 +5,8 @@
 # 机场节点订阅
 
 proxy-providers:
-  provider_06:
-    url: "http://107.175.233.96:61145/1323a55e-5ca6-45a6-a9a9-b2cc89faa0e8/clmi.yaml"  
+  RN-sinbox:
+    url: "http://rn.950606.xyz:62870/e9903a48-3b9c-45d6-b897-8652b7e3f3a6/clmi.yaml"  
     type: http
     interval: 86400
     health-check:
@@ -15,8 +15,8 @@ proxy-providers:
       interval: 300
     proxy: 直连
 
-  provider_0606:  # 👈 刚才这里漏掉了关键的冒号，现已修复
-    url: "https://rn.950606.xyz:2096/bl0606/me0sg5hds7h8khcd"  
+  provider_0606:  
+    url: ""  
     type: http
     interval: 86400
     health-check:
