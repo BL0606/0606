@@ -6,7 +6,7 @@
 
 proxy-providers:
   RN-sinbox:
-    url: "http://rn.950606.xyz:62870/e9903a48-3b9c-45d6-b897-8652b7e3f3a6/clmi.yaml"  
+    url: "http://96.44.135.158:40036/51f72fa3-8225-4d5f-9b08-f940c649a9fe/clmi.yaml"  
     type: http
     interval: 86400
     health-check:
